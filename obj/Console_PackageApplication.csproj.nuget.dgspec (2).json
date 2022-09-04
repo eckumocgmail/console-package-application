@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Console_PackageApplication\\Console_PackageApplication.csproj": {}
+    "D:\\NetProjects\\Console_PackageApplication\\Console_PackageApplication.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Console_PackageApplication\\Console_PackageApplication.csproj": {
+    "D:\\NetProjects\\Console_PackageApplication\\Console_PackageApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Console_PackageApplication\\Console_PackageApplication.csproj",
+        "projectUniqueName": "D:\\NetProjects\\Console_PackageApplication\\Console_PackageApplication.csproj",
         "projectName": "Console_PackageApplication",
-        "projectPath": "D:\\Projects\\Console_PackageApplication\\Console_PackageApplication.csproj",
+        "projectPath": "D:\\NetProjects\\Console_PackageApplication\\Console_PackageApplication.csproj",
         "packagesPath": "C:\\Users\\reuser\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Console_PackageApplication\\obj\\",
+        "outputPath": "D:\\NetProjects\\Console_PackageApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\System-Config\\NuGetStore": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

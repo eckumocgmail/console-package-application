@@ -14,3 +14,13 @@ D:\NetProjectsConsole\Console_PackageApplication\obj\Debug\net5.0\refint\Console
 D:\NetProjectsConsole\Console_PackageApplication\obj\Debug\net5.0\Console_PackageApplication.pdb
 D:\NetProjectsConsole\Console_PackageApplication\obj\Debug\net5.0\Console_PackageApplication.genruntimeconfig.cache
 D:\NetProjectsConsole\Console_PackageApplication\obj\Debug\net5.0\ref\Console_PackageApplication.dll
+D:\NetProjects\Console_PackageApplication\obj\Debug\net5.0\Console_PackageApplication.csproj.AssemblyReference.cache
+D:\NetProjects\Console_PackageApplication\obj\Debug\net5.0\Console_PackageApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\NetProjects\Console_PackageApplication\obj\Debug\net5.0\Console_PackageApplication.AssemblyInfoInputs.cache
+D:\NetProjects\Console_PackageApplication\obj\Debug\net5.0\Console_PackageApplication.AssemblyInfo.cs
+D:\NetProjects\Console_PackageApplication\obj\Debug\net5.0\Console_PackageApplication.csproj.CoreCompileInputs.cache
+D:\NetProjects\Console_PackageApplication\obj\Debug\net5.0\Console_PackageApplication.dll
+D:\NetProjects\Console_PackageApplication\obj\Debug\net5.0\refint\Console_PackageApplication.dll
+D:\NetProjects\Console_PackageApplication\obj\Debug\net5.0\Console_PackageApplication.pdb
+D:\NetProjects\Console_PackageApplication\obj\Debug\net5.0\Console_PackageApplication.genruntimeconfig.cache
+D:\NetProjects\Console_PackageApplication\obj\Debug\net5.0\ref\Console_PackageApplication.dll

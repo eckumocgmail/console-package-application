@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zrvc2N7XzCGqJP/9STBFLzVQq2kSfQFVvJPAAkP180o9zbSMeKmF4FeaO/7X+etXxlph5jpSIhgglNTTxYmk0w==",
+  "dgSpecHash": "sDI58G9eLJfi/nfJJjeMI56Xs53uWh0PdgXnr3FPDrRuWikN5sPOXNIRt1Xv7tS5W0Fhw2dd2mZ6rRlZ07eXdg==",
   "success": true,
-  "projectFilePath": "D:\\NetProjectsConsole\\Console_PackageApplication\\Console_PackageApplication.csproj",
+  "projectFilePath": "D:\\Projects\\Console_PackageApplication\\Console_PackageApplication.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

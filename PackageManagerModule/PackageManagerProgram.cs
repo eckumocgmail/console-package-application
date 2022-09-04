@@ -9,14 +9,24 @@ using System.Text;
 using System.Threading.Tasks;
     
 public class PackageManagerProgram
-{ 
-    public static void Test() => Run(new string[] { @"d:\Commands", @"d:\Commands.zip" });
+{
+    private const string DefaultsPackageStoreDirectory = @"D:\System-Config\PackageStore";
+
+    public static void Test() 
+        => Run(new string[] { 
+            @"d:\Commands", 
+            @"d:\Commands.zip" 
+        });
         
+
+    /// <summary>
+    /// Выполнение с параметрами
+    /// </summary>    
     public static void Run(params string[] args)
     {        
         if (args.Length == 0)
         {
-            var manager = new PackageManager(@"D:\System-Config\PackageStore");
+            var manager = new PackageManager(DefaultsPackageStoreDirectory);
 
             
             string directory = System.IO.Directory.GetCurrentDirectory();
@@ -29,7 +39,7 @@ public class PackageManagerProgram
         }
         else
         {
-            var manager = new PackageManager(@"D:\System-Config\PackageStore");
+            var manager = new PackageManager(DefaultsPackageStoreDirectory);
             string directory = System.IO.Directory.GetCurrentDirectory();
             foreach (string application in args)
             {                          

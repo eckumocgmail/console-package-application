@@ -13,11 +13,17 @@ using System.Threading.Tasks;
 /// </summary>
 public class PackageManager: IPackageManager
 {
+
+    /// <summary>
+    /// Хранилище файлов
+    /// </summary>
+    
     private string PackageStoreDirectory = @"D:\System-Config\PackageStore";
 
     public PackageManager(string PackageStoreDirectory)
     {
         this.PackageStoreDirectory = PackageStoreDirectory;
+
     }
 
     /// <summary>
@@ -31,7 +37,7 @@ public class PackageManager: IPackageManager
 
         try
         {
-            string appDirectory = @$"{PackageStoreDirectory}\\{application}";
+            string appDirectory = Path.Combine(PackageStoreDirectory,application).ToString();
             if (System.IO.Directory.Exists(appDirectory) == false)
                 System.IO.Directory.CreateDirectory(appDirectory);
             Console.WriteLine("Сохранение пакета "+application+" версии "+version+" в архив: "+appDirectory+"\\"+application+"_"+version+".zip");

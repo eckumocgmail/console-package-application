@@ -12,7 +12,6 @@ public interface IPackageManager
     public void Pack(string application, string version, string directory);
     public void Unpack(string application, string version, string directory);
     
-
     public string GetNextVersion(string application);
     public string GetLastVersion(string application);
 }

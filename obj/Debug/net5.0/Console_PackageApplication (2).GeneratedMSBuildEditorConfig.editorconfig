@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Console_PackageApplication
+build_property.RootNamespace = Console_PackageApplication_(2)
 build_property.ProjectDir = d:\Projects\Console_PackageApplication\
