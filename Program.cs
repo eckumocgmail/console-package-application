@@ -7,13 +7,11 @@ using System.Reflection;
 namespace Console_PackageApplication
 {
 
-    class Program 
+    class Program
     {
 
         static void Main(string[] arguments)
         {
-
-
 
             InputConsole.Interactive();
             var p = new PackageManagerProgram(ref arguments);
@@ -37,19 +35,19 @@ namespace Console_PackageApplication
             do
             {
                 string app = p.Source;
-                
+
 
                 MethodBase action = p.TargetSite;
                 string type = action.DeclaringType.Name;
                 Console.WriteLine($"[{app}] => {type}.{action}:");
-                if (p.StackTrace.IndexOf(":line")>0)
+                if (p.StackTrace.IndexOf(":line") > 0)
                 {
-                    int l =p.StackTrace.Length; 
+                    int l = p.StackTrace.Length;
                     int i = p.StackTrace.IndexOf(":line");
-                    
+
                     string line = p.StackTrace.Substring(i + 5);
                     i = 0;
-                    while ("0123456789".Contains(line[i]))i++;
+                    while ("0123456789".Contains(line[i])) i++;
                     line = line.Substring(0, i);
                     Console.WriteLine(
                         $"{type}:{line}" +
@@ -66,9 +64,9 @@ namespace Console_PackageApplication
                         $"\n\t => {p.GetTypeName()} \n\t\t{p.Message}");
                     Console.WriteLine(p.HelpLink);
                     Console.WriteLine();
-                }           
+                }
                 p = p.InnerException;
-            } while (p!=null);
+            } while (p != null);
         }
 
         static void Catch(Action action, Action<Exception> catcher)
@@ -78,7 +76,7 @@ namespace Console_PackageApplication
                 Console.Clear();
                 action();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 catcher(ex);
             }

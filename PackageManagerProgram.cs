@@ -71,22 +71,7 @@ public class PackageManagerProgram: IUserControl
                 }
                 Run(ref args);
                 break;
-            case "Зарегистрировать источник":
-                OnPackageCreate(InputText("Наименование пакета", value =>
-                {
-                    var errors = new List<string>();
-                    //TODO: import files
-                    return errors;
-
-                }, ref args), ref args);
-                break;
-            case "Удалить источник":
-                OnPackageDelete(SingleSelect(
-                    "Пакетные источники",
-                    _packageManager.GetApplications(),
-                    ref args
-                ), ref args);
-                break;
+           
             case "Выход":
                 OnExitProgram(ref args); break;
             default: break;

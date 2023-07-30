@@ -1,3 +1,4 @@
+ 
 ﻿using System.Collections.Generic;
 /// <summary>
 /// Управление пакетами
@@ -16,4 +17,4 @@ public interface IPackageManager
     public string GetNextVersion(string application);
     public string GetLastVersion(string application);
 }
-
+ 

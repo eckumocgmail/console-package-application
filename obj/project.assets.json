@@ -9166,8 +9166,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Console_InputApplication >= 1.0.0",
-      "Newtonsoft.Json >= 13.0.1"
+      "Console_InputApplication >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9217,12 +9216,6 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
-        "dependencies": {
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[13.0.1, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
